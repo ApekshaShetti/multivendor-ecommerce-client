@@ -4,7 +4,7 @@ import { BsFacebook } from "react-icons/bs";
 
 function Footer() {
   return (
-    <footer className="d-flex flex-wrap justify-content-between align-items-center my-5 border-top">
+    <footer className="d-flex flex-wrap justify-content-between container align-items-center my-5 border-top">
       <p className="col-md-4 mb-0 text-body-secondary">
         PythonScripts &copy; 2023 Company, Inc
       </p>
