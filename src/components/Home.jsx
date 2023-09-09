@@ -1,8 +1,8 @@
 import { AiFillStar } from "react-icons/ai";
 import { AiOutlineArrowRight } from "react-icons/ai";
-import { BsFillCartPlusFill } from "react-icons/bs";
-import { AiFillHeart } from "react-icons/ai";
 import reactLogo from "../assets/react.svg";
+import { Link } from "react-router-dom";
+import SingleProduct from "./SingleProduct";
 
 function Home() {
   return (
@@ -11,197 +11,27 @@ function Home() {
         {/* Latest Projects  */}
         <h3 className="mb-4">
           Latest Products
-          <a href="#" className="float-end btn btn-dark">
+          <Link to="/products" className="float-end btn btn-dark">
             View all Products <AiOutlineArrowRight />
-          </a>
+          </Link>
         </h3>
         <div className="row mb-4">
-          {/* Product Box  */}
-          <div className="col-12 col-md-3 mb-4">
-            <div className="card">
-              <img src={reactLogo} className="card-img-top" alt="..." />
-
-              <div className="card-body">
-                <h4 className="card-title ">Product title</h4>
-                <h5 className="card-title text-muted">Price : ₹ 500</h5>
-              </div>
-              <div className="card-footer">
-                <button title="Add to Cart" className="btn btn-success btn-sm">
-                  <BsFillCartPlusFill />
-                </button>
-                <button
-                  title="Add to Wishlist"
-                  className="btn btn-danger btn-sm ms-2"
-                >
-                  <AiFillHeart />
-                </button>
-              </div>
-            </div>
-          </div>
-          {/* Product Box end  */}
-          {/* Product Box  */}
-          <div className="col-12 col-md-3 mb-4">
-            <div className="card">
-              <img src={reactLogo} className="card-img-top" alt="..." />
-
-              <div className="card-body">
-                <h4 className="card-title ">Product title</h4>
-                <h5 className="card-title text-muted">Price : ₹ 500</h5>
-              </div>
-              <div className="card-footer">
-                <button title="Add to Cart" className="btn btn-success btn-sm">
-                  <i className="fa-solid fa-cart-plus"></i>
-                </button>
-                <button
-                  title="Add to Wishlist"
-                  className="btn btn-danger btn-sm ms-2"
-                >
-                  <i className="fa-solid fa-heart"></i>
-                </button>
-              </div>
-            </div>
-          </div>
-          {/* Product Box end  */}
-          {/* Product Box  */}
-          <div className="col-12 col-md-3 mb-4">
-            <div className="card">
-              <img src={reactLogo} className="card-img-top" alt="..." />
-
-              <div className="card-body">
-                <h4 className="card-title ">Product title</h4>
-                <h5 className="card-title text-muted">Price : ₹ 500</h5>
-              </div>
-              <div className="card-footer">
-                <button title="Add to Cart" className="btn btn-success btn-sm">
-                  <i className="fa-solid fa-cart-plus"></i>
-                </button>
-                <button
-                  title="Add to Wishlist"
-                  className="btn btn-danger btn-sm ms-2"
-                >
-                  <i className="fa-solid fa-heart"></i>
-                </button>
-              </div>
-            </div>
-          </div>
-          {/* Product Box end  */}
-          {/* Product Box  */}
-          <div className="col-12 col-md-3 mb-4">
-            <div className="card">
-              <img src={reactLogo} className="card-img-top" alt="..." />
-
-              <div className="card-body">
-                <h4 className="card-title ">Product title</h4>
-                <h5 className="card-title text-muted">Price : ₹ 500</h5>
-              </div>
-              <div className="card-footer">
-                <button title="Add to Cart" className="btn btn-success btn-sm">
-                  <i className="fa-solid fa-cart-plus"></i>
-                </button>
-                <button
-                  title="Add to Wishlist"
-                  className="btn btn-danger btn-sm ms-2"
-                >
-                  <i className="fa-solid fa-heart"></i>
-                </button>
-              </div>
-            </div>
-          </div>
-          {/* Product Box end  */}
-          {/* Product Box  */}
-          <div className="col-12 col-md-3 mb-2">
-            <div className="card">
-              <img src={reactLogo} className="card-img-top" alt="..." />
-
-              <div className="card-body">
-                <h4 className="card-title ">Product title</h4>
-                <h5 className="card-title text-muted">Price : ₹ 500</h5>
-              </div>
-              <div className="card-footer">
-                <button title="Add to Cart" className="btn btn-success btn-sm">
-                  <i className="fa-solid fa-cart-plus"></i>
-                </button>
-                <button
-                  title="Add to Wishlist"
-                  className="btn btn-danger btn-sm ms-2"
-                >
-                  <i className="fa-solid fa-heart"></i>
-                </button>
-              </div>
-            </div>
-          </div>
-          {/* Product Box end  */}
-          {/* Product Box  */}
-          <div className="col-12 col-md-3 mb-2">
-            <div className="card">
-              <img src={reactLogo} className="card-img-top" alt="..." />
-
-              <div className="card-body">
-                <h4 className="card-title ">Product title</h4>
-                <h5 className="card-title text-muted">Price : ₹ 500</h5>
-              </div>
-              <div className="card-footer">
-                <button title="Add to Cart" className="btn btn-success btn-sm">
-                  <i className="fa-solid fa-cart-plus"></i>
-                </button>
-                <button
-                  title="Add to Wishlist"
-                  className="btn btn-danger btn-sm ms-2"
-                >
-                  <i className="fa-solid fa-heart"></i>
-                </button>
-              </div>
-            </div>
-          </div>
-          {/* Product Box end  */}
-          {/* Product Box  */}
-          <div className="col-12 col-md-3 mb-2">
-            <div className="card">
-              <img src={reactLogo} className="card-img-top" alt="..." />
-
-              <div className="card-body">
-                <h4 className="card-title ">Product title</h4>
-                <h5 className="card-title text-muted">Price : ₹ 500</h5>
-              </div>
-              <div className="card-footer">
-                <button title="Add to Cart" className="btn btn-success btn-sm">
-                  <i className="fa-solid fa-cart-plus"></i>
-                </button>
-                <button
-                  title="Add to Wishlist"
-                  className="btn btn-danger btn-sm ms-2"
-                >
-                  <i className="fa-solid fa-heart"></i>
-                </button>
-              </div>
-            </div>
-          </div>
-          {/* Product Box end  */}
-          {/* Product Box  */}
-          <div className="col-12 col-md-3 mb-2">
-            <div className="card">
-              <img src={reactLogo} className="card-img-top" alt="..." />
-
-              <div className="card-body">
-                <h4 className="card-title ">Product title</h4>
-                <h5 className="card-title text-muted">Price : ₹ 500</h5>
-              </div>
-              <div className="card-footer">
-                <button title="Add to Cart" className="btn btn-success btn-sm">
-                  <i className="fa-solid fa-cart-plus"></i>
-                </button>
-                <button
-                  title="Add to Wishlist"
-                  className="btn btn-danger btn-sm ms-2"
-                >
-                  <i className="fa-solid fa-heart"></i>
-                </button>
-              </div>
-            </div>
-          </div>
-          {/* Product Box end  */}
+          <SingleProduct title="Django Project 1" />
+          <SingleProduct title="Django Project 2" />
+          <SingleProduct title="Django Project" />
+          <SingleProduct title="Django Project" />
+          <SingleProduct title="Django Project" />
+          <SingleProduct title="Django Project" />
+          <SingleProduct title="Django Project" />
+          <SingleProduct title="Django Project" />
+          <SingleProduct title="Django Project" />
+          <SingleProduct title="Django Project" />
+          <SingleProduct title="Django Project" />
         </div>
         {/* End Latest Products  */}
+
+
+        
         {/* Popular Categories  */}
         <h3 className="mb-4">
           Popular Categories

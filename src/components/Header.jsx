@@ -16,7 +16,7 @@ function Header() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <Link className="navbar-brand" to="#">
+          <Link className="navbar-brand" to="/">
             Python Market Place
           </Link>
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">

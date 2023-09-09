@@ -13,7 +13,7 @@ function Categories() {
 
             <div className="card-body">
               <h4 className="card-title ">
-                <Link to="/">Category title</Link>
+                <Link to="/category/python/1">Category title</Link>
               </h4>
             </div>
             <div className="card-footer">Product Downloads : 2345</div>
@@ -27,7 +27,7 @@ function Categories() {
 
             <div className="card-body">
               <h4 className="card-title ">
-                <Link to="/">Category title</Link>
+                <Link to="/category/python/1">Category title</Link>
               </h4>
             </div>
             <div className="card-footer">Product Downloads : 2345</div>
@@ -41,7 +41,7 @@ function Categories() {
 
             <div className="card-body">
               <h4 className="card-title ">
-                <Link to="/">Category title</Link>
+                <Link to="/category/python/1">Category title</Link>
               </h4>
             </div>
             <div className="card-footer">Product Downloads : 2345</div>
@@ -55,7 +55,7 @@ function Categories() {
 
             <div className="card-body">
               <h4 className="card-title ">
-                <Link to="/">Category title</Link>
+                <Link to="/category/python/1">Category title</Link>
               </h4>
             </div>
             <div className="card-footer">Product Downloads : 2345</div>
@@ -71,7 +71,7 @@ function Categories() {
 
             <div className="card-body">
               <h4 className="card-title ">
-                <Link to="/">Category title</Link>
+                <Link to="/category/python/1">Python</Link>
               </h4>
             </div>
             <div className="card-footer">Product Downloads : 2345</div>
@@ -85,7 +85,7 @@ function Categories() {
 
             <div className="card-body">
               <h4 className="card-title ">
-                <Link to="/">Category title</Link>
+                <Link to="/category/python/1">Category title</Link>
               </h4>
             </div>
             <div className="card-footer">Product Downloads : 2345</div>
@@ -99,7 +99,7 @@ function Categories() {
 
             <div className="card-body">
               <h4 className="card-title ">
-                <Link to="/">Category title</Link>
+                <Link to="/category/python/1">Category title</Link>
               </h4>
             </div>
             <div className="card-footer">Product Downloads : 2345</div>
@@ -113,7 +113,7 @@ function Categories() {
 
             <div className="card-body">
               <h4 className="card-title ">
-                <Link to="/">Category title</Link>
+                <Link to="/category/python/1">Category title</Link>
               </h4>
             </div>
             <div className="card-footer">Product Downloads : 2345</div>
@@ -121,6 +121,38 @@ function Categories() {
         </div>
         {/* Category Box end  */}
       </div>
+
+      {/* Pagination  */}
+      <nav aria-label="Page navigation example">
+        <ul className="pagination">
+          <li className="page-item">
+            <a className="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li className="page-item">
+            <a className="page-link" href="#">
+              1
+            </a>
+          </li>
+          <li className="page-item">
+            <a className="page-link" href="#">
+              2
+            </a>
+          </li>
+          <li className="page-item">
+            <a className="page-link" href="#">
+              3
+            </a>
+          </li>
+          <li className="page-item">
+            <a className="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      {/* Pagination end  */}
     </section>
   );
 }
