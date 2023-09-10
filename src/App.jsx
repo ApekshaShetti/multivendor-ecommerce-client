@@ -10,6 +10,7 @@ import Categories from "./components/Categories";
 import CategoryProducts from "./components/CategoryProducts";
 import AllProducts from "./components/AllProducts";
 import ProductDetail from "./components/ProductDetail";
+import Checkout from "./components/Checkout";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           path="/product/:product_slug/:product_id"
           element={<ProductDetail />}
         />
+        <Route path="/checkout" element={<Checkout />} />
       </Routes>
 
       <Footer />

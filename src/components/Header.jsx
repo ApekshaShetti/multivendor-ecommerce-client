@@ -30,6 +30,11 @@ function Header() {
                 Categories
               </Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/checkout">
+                My Cart (4)
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
