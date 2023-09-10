@@ -18,12 +18,15 @@ function SingleProduct(props) {
           <h5 className="card-title text-muted">Price : ₹ 500</h5>
         </div>
         <div className="card-footer">
-          <button title="Add to Cart" className="btn btn-success btn-sm">
+          <button
+            title="Add to Cart"
+            className="btn btn-success btn-sm align-items-center"
+          >
             <BsFillCartPlusFill />
           </button>
           <button
             title="Add to Wishlist"
-            className="btn btn-danger btn-sm ms-2"
+            className="btn btn-danger btn-sm ms-2 align-items-center"
           >
             <AiFillHeart />
           </button>
