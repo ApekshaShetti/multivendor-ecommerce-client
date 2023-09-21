@@ -100,7 +100,10 @@ function Checkout() {
                     >
                       Continue Shopping
                     </Link>
-                    <Link className="btn  btn-primary align-items-center  ms-2 mt-3 me-2 mb-3">
+                    <Link
+                      to="order/success"
+                      className="btn  btn-primary align-items-center  ms-2 mt-3 me-2 mb-3"
+                    >
                       Proceed to Payment
                     </Link>
                   </td>

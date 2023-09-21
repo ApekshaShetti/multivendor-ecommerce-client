@@ -11,9 +11,12 @@ import CategoryProducts from "./components/CategoryProducts";
 import AllProducts from "./components/AllProducts";
 import ProductDetail from "./components/ProductDetail";
 import Checkout from "./components/Checkout";
+import OrderSuccess from "./components/OrderSuccess";
+import OrderFail from "./components/OrderFail";
 import Register from "./components/customer/Register";
 import Login from "./components/customer/Login";
 import Dashboard from "./components/customer/Dashboard";
+import Orders from "./components/customer/Orders";
 
 function App() {
   return (
@@ -32,9 +35,12 @@ function App() {
           element={<ProductDetail />}
         />
         <Route path="/checkout" element={<Checkout />} />
+        <Route path="/order/success" element={<OrderSuccess />} />
+        <Route path="/order/fail" element={<OrderFail />} />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/orders" element={<Orders />} />
       </Routes>
 
       <Footer />
