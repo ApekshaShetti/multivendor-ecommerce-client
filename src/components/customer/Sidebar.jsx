@@ -19,8 +19,17 @@ function SideBar() {
       <Link to="/address" className="list-group-item list-group-item-action">
         Address
       </Link>
-      <Link to="/profile" className="list-group-item list-group-item-action">
+      <Link
+        to="/update-profile"
+        className="list-group-item list-group-item-action"
+      >
         Profile
+      </Link>
+      <Link
+        to="/change-password"
+        className="list-group-item list-group-item-action"
+      >
+        Change Password
       </Link>
       <Link
         to="/login"
