@@ -74,7 +74,7 @@ function Header() {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Seller Panel
+                Vendor Panel
               </a>
               <ul className="dropdown-menu">
                 <li>
